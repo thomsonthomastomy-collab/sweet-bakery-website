@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
  body {
-    font-family: var(--font-sans); color: var(--color-ink); background: #fff; padding: 48px 24px 96px;
+    font-family: var(--font-sans); color: var(--color-ink); background: #fff; padding: 30px 25px 96px;
     text-decoration: none;
  }
  
 
 /*nav bar*/
-h1{
+.h1-nav-bar{
   font-family: 'Allura', cursive;
     font-size: 30px;
     font-weight: 400;
@@ -53,4 +53,66 @@ nav button {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.hero{
+    padding: 30px 30px 96px;
+    width: 100%;
+    min-height: 80vh;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #000000;
+}
+.hero-h1 span{
+    font-size: 114px;
+    color:  #6C4AA3;
+}
+.image img{
+    width:900px;
+    height: 550px;
+    object-fit: contain;
+    
+}
+.hero-section p{
+
+    font-size: 16px;
+    font-family: sans-serif;
+    color: gray;  
+    margin: 45px 0 20px;
+    line-height: 2;
+
+}
+.hero-buttons button{
+    width: 225px;
+    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+}
+.hero-buttons .one{
+    background-color: #6C4AA3;
+    font-weight: 12px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.hero-buttons .two{
+       border: 1px solid #171717;
 }
